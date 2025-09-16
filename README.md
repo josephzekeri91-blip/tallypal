@@ -37,5 +37,20 @@ TallyPal-server/
 ├─ db.js
 └─ routes/
 └─ registrations.js
-
+{
+"name": "tallypal-mobile",
+"version": "0.1.0",
+"main": "node_modules/expo/AppEntry.js",
+"scripts": {
+"start": "expo start",
+"android": "expo run:android",
+"ios": "expo run:ios"
+},
+"dependencies": {
+"expo": "~48.0.0",
+"react": "18.2.0",
+"react-native": "0.71.8",
+"axios": "^1.4.0"
+}
+}
 ## 📂 Project Structure
