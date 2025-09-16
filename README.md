@@ -22,5 +22,20 @@ It allows clerks to record **time registrations, truck movements, and inventory 
 - Database: PostgreSQL (or SQLite for dev)
 
 ---
+TallyPal-mobile/
+├─ App.js
+├─ package.json
+├─ app.json
+└─ components/
+├─ RegistrationForm.js
+└─ RegistrationsList.js
+
+
+TallyPal-server/
+├─ package.json
+├─ index.js
+├─ db.js
+└─ routes/
+└─ registrations.js
 
 ## 📂 Project Structure
